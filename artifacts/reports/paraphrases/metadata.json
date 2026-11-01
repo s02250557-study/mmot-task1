@@ -1,0 +1,15 @@
+{
+  "checkpoint": "artifacts/checkpoints/genius55m/best",
+  "weights_sha256": "7914c368c0f8540730b5d59310147f44bc4eaa707ef07bff95a8584d18b83e5f",
+  "tokenizer_sha256": "b18ef1e2a76bacb9fd6f804db5fe38abee4a2b35bc7b61b21b81979293ee947b",
+  "prompts_file": "configs/inference_examples.json",
+  "prompts_sha256": "11bbb51989bb5676dbcda4a2af8f2963087ba02c144beca29ab03c9499220533",
+  "temperatures": [
+    0.0
+  ],
+  "seed": 42,
+  "max_new_tokens": 32,
+  "top_p": 0.92,
+  "repetition_penalty": 1.05,
+  "note": "Curated examples of correct short completions."
+}

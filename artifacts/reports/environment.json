@@ -1,0 +1,13 @@
+{
+  "python": "3.12.7",
+  "torch": "2.5.1+cu118",
+  "numpy": "1.26.4",
+  "transformers": "4.46.2",
+  "tokenizers": "0.20.3",
+  "tensorboard": "2.19.0",
+  "matplotlib": "3.9.2",
+  "cuda_available": true,
+  "bf16_supported": true,
+  "gpu": "NVIDIA GeForce RTX 3060 Ti",
+  "flash_sdp_built": false
+}

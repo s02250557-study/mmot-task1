@@ -1,0 +1,552 @@
+[
+  {
+    "prompt": "Один плюс один равно",
+    "continuation": " два\nОдин плюс один равно два\nОдин плюс один равно два\nОдин плюс один равно два\nОдин плюс один равно два\nОдин плюс один равно два\n",
+    "text": "Один плюс один равно два\nОдин плюс один равно два\nОдин плюс один равно два\nОдин плюс один равно два\nОдин плюс один равно два\nОдин плюс один равно два\n",
+    "seed": 42,
+    "prompt_tokens": 5,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "addition_baseline",
+    "category": "addition",
+    "expected_hints": [
+      "два",
+      "2"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Роман в стихах «Евгений Онегин» написал Александр",
+    "continuation": " Пушкин\n\nЯ не знаю, что такое «творчество»\nЯ не знаю, что такое «бездарность»\nЯ не",
+    "text": "Роман в стихах «Евгений Онегин» написал Александр Пушкин\n\nЯ не знаю, что такое «творчество»\nЯ не знаю, что такое «бездарность»\nЯ не",
+    "seed": 42,
+    "prompt_tokens": 21,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "onegin_baseline",
+    "category": "onegin",
+    "expected_hints": [
+      "Пушкин"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Роман «Евгений Онегин» создал Александр",
+    "continuation": " Пушкин\nИ, конечно, он был не очень, но, как и я, тоже\nОн был не очень, но, как и я,",
+    "text": "Роман «Евгений Онегин» создал Александр Пушкин\nИ, конечно, он был не очень, но, как и я, тоже\nОн был не очень, но, как и я,",
+    "seed": 42,
+    "prompt_tokens": 19,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "onegin_6",
+    "category": "onegin",
+    "expected_hints": [
+      "Пушкин"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Поэт, написавший «Евгения Онегина», — Александр",
+    "continuation": " Пушкин\n\nАлександр Пушкин, — сказал он, — «Евгения Онегина»\n\nАлександ",
+    "text": "Поэт, написавший «Евгения Онегина», — Александр Пушкин\n\nАлександр Пушкин, — сказал он, — «Евгения Онегина»\n\nАлександ",
+    "seed": 42,
+    "prompt_tokens": 20,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "onegin_10",
+    "category": "onegin",
+    "expected_hints": [
+      "Пушкин"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "После зимы наступает",
+    "continuation": " весна\nИ я не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что",
+    "text": "После зимы наступает весна\nИ я не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что",
+    "seed": 42,
+    "prompt_tokens": 5,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "spring_baseline",
+    "category": "spring",
+    "expected_hints": [
+      "весна"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "За зимой приходит",
+    "continuation": " весна\nИ я не знаю, как мне быть\nЯ хочу тебя обнять\nНо ты не хочешь меня знать\n\nЯ хочу тебя обнять\nНо ты не",
+    "text": "За зимой приходит весна\nИ я не знаю, как мне быть\nЯ хочу тебя обнять\nНо ты не хочешь меня знать\n\nЯ хочу тебя обнять\nНо ты не",
+    "seed": 42,
+    "prompt_tokens": 4,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "spring_1",
+    "category": "spring",
+    "expected_hints": [
+      "весна"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "После холодной зимы к нам приходит",
+    "continuation": " весна\nИ мы с тобой в этом городе одни\nИ мы с тобой в этом городе одни\n\nЯ не знаю, как ты там, но я знаю",
+    "text": "После холодной зимы к нам приходит весна\nИ мы с тобой в этом городе одни\nИ мы с тобой в этом городе одни\n\nЯ не знаю, как ты там, но я знаю",
+    "seed": 42,
+    "prompt_tokens": 8,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "spring_5",
+    "category": "spring",
+    "expected_hints": [
+      "весна"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "На смену зиме приходит",
+    "continuation": " весна\nИ в ней я вижу тебя\nИ в ней я вижу тебя\nИ в ней я вижу тебя\nИ в ней я вижу тебя\nИ в",
+    "text": "На смену зиме приходит весна\nИ в ней я вижу тебя\nИ в ней я вижу тебя\nИ в ней я вижу тебя\nИ в ней я вижу тебя\nИ в",
+    "seed": 42,
+    "prompt_tokens": 7,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "spring_8",
+    "category": "spring",
+    "expected_hints": [
+      "весна"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Зима прошла, и наступила",
+    "continuation": " весна\nИ я не знаю, что мне делать\nИ я не знаю, что мне делать\nИ я не знаю, что мне делать\n\nЯ не",
+    "text": "Зима прошла, и наступила весна\nИ я не знаю, что мне делать\nИ я не знаю, что мне делать\nИ я не знаю, что мне делать\n\nЯ не",
+    "seed": 42,
+    "prompt_tokens": 9,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "spring_9",
+    "category": "spring",
+    "expected_hints": [
+      "весна"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "После ночи наступает",
+    "continuation": " рассвет\nИ я не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что",
+    "text": "После ночи наступает рассвет\nИ я не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что",
+    "seed": 42,
+    "prompt_tokens": 5,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "dawn_baseline",
+    "category": "dawn",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "После долгой ночи приходит",
+    "continuation": " рассвет\nИ мы с тобой вдвоём, мы с тобой вдвоём\n\nЯ не знаю, как мне быть\nЯ не знаю, как мне быть\nЯ не",
+    "text": "После долгой ночи приходит рассвет\nИ мы с тобой вдвоём, мы с тобой вдвоём\n\nЯ не знаю, как мне быть\nЯ не знаю, как мне быть\nЯ не",
+    "seed": 42,
+    "prompt_tokens": 6,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "dawn_3",
+    "category": "dawn",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Когда ночь уходит, наступает",
+    "continuation": " рассвет\nИ ты не знаешь, что будет завтра\nИ ты не знаешь, что будет завтра\n\nЯ не знаю, что будет завтра\nЯ не знаю",
+    "text": "Когда ночь уходит, наступает рассвет\nИ ты не знаешь, что будет завтра\nИ ты не знаешь, что будет завтра\n\nЯ не знаю, что будет завтра\nЯ не знаю",
+    "seed": 42,
+    "prompt_tokens": 7,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "dawn_5",
+    "category": "dawn",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "После ночной темноты наступает",
+    "continuation": " рассвет\nИ я не знаю, что мне делать, я не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что",
+    "text": "После ночной темноты наступает рассвет\nИ я не знаю, что мне делать, я не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что",
+    "seed": 42,
+    "prompt_tokens": 8,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "dawn_6",
+    "category": "dawn",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Ночь прошла. Теперь наступает",
+    "continuation": " рассвет\nИ я не знаю, что мне делать, как мне быть теперь\nЯ не знаю, что мне делать, как мне быть теперь\nЯ не знаю",
+    "text": "Ночь прошла. Теперь наступает рассвет\nИ я не знаю, что мне делать, как мне быть теперь\nЯ не знаю, что мне делать, как мне быть теперь\nЯ не знаю",
+    "seed": 42,
+    "prompt_tokens": 9,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "dawn_7",
+    "category": "dawn",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "За ночью следует",
+    "continuation": " рассвет\nИ мы с тобою в темноте\nМы с тобою в темноте\nМы с тобою в темноте\n\nЯ не знаю, как мне быть\nЯ не",
+    "text": "За ночью следует рассвет\nИ мы с тобою в темноте\nМы с тобою в темноте\nМы с тобою в темноте\n\nЯ не знаю, как мне быть\nЯ не",
+    "seed": 42,
+    "prompt_tokens": 5,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "dawn_8",
+    "category": "dawn",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Зимой с неба падает",
+    "continuation": " снег\nИ мы с тобой на крыше\nМы с тобой на крыше\n\nЯ не знаю, как ты\nЯ не знаю, как ты\nЯ не",
+    "text": "Зимой с неба падает снег\nИ мы с тобой на крыше\nМы с тобой на крыше\n\nЯ не знаю, как ты\nЯ не знаю, как ты\nЯ не",
+    "seed": 42,
+    "prompt_tokens": 7,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "snow_baseline",
+    "category": "snow",
+    "expected_hints": [
+      "снег"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Зимой с неба сыплется белый",
+    "continuation": " снег\nИ ты уже не тот, что раньше\nИ ты уже не тот, что раньше\nИ ты уже не тот, что раньше\nИ ты уже",
+    "text": "Зимой с неба сыплется белый снег\nИ ты уже не тот, что раньше\nИ ты уже не тот, что раньше\nИ ты уже не тот, что раньше\nИ ты уже",
+    "seed": 42,
+    "prompt_tokens": 10,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "snow_1",
+    "category": "snow",
+    "expected_hints": [
+      "снег"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "В морозную погоду из облаков падает",
+    "continuation": " снег\nИ я не знаю, что мне делать, я не знаю, что мне делать\nЯ не знаю, что мне делать, я не знаю, что",
+    "text": "В морозную погоду из облаков падает снег\nИ я не знаю, что мне делать, я не знаю, что мне делать\nЯ не знаю, что мне делать, я не знаю, что",
+    "seed": 42,
+    "prompt_tokens": 10,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "snow_2",
+    "category": "snow",
+    "expected_hints": [
+      "снег"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Когда идёт снегопад, с неба падает",
+    "continuation": " снег\nИ я не знаю, что сказать, но я знаю ответ\nИ я не знаю, что сказать, но я знаю ответ\nИ я не знаю",
+    "text": "Когда идёт снегопад, с неба падает снег\nИ я не знаю, что сказать, но я знаю ответ\nИ я не знаю, что сказать, но я знаю ответ\nИ я не знаю",
+    "seed": 42,
+    "prompt_tokens": 9,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "snow_5",
+    "category": "snow",
+    "expected_hints": [
+      "снег"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "На улице зима, и с неба сыплет",
+    "continuation": "ся снег\nИ ты не спешишь, ты не спешишь\nИ ты не спешишь, ты не спешишь\n\nТы не спешишь, ты",
+    "text": "На улице зима, и с неба сыплется снег\nИ ты не спешишь, ты не спешишь\nИ ты не спешишь, ты не спешишь\n\nТы не спешишь, ты",
+    "seed": 42,
+    "prompt_tokens": 10,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "snow_7",
+    "category": "snow",
+    "expected_hints": [
+      "снег"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Когда идёт дождь, я беру с собой",
+    "continuation": " зонт\nЯ не знаю, что мне делать, я не знаю, что мне делать\nЯ не знаю, что мне делать, я не знаю, что",
+    "text": "Когда идёт дождь, я беру с собой зонт\nЯ не знаю, что мне делать, я не знаю, что мне делать\nЯ не знаю, что мне делать, я не знаю, что",
+    "seed": 42,
+    "prompt_tokens": 9,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "umbrella_baseline",
+    "category": "umbrella",
+    "expected_hints": [
+      "зонт",
+      "зонтик",
+      "дождевик"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Если на улице дождь, я беру с собой",
+    "continuation": " зонт\nЯ не знаю, что со мной, но я знаю, что я урод\nЯ не знаю, что со мной, но я знаю, что",
+    "text": "Если на улице дождь, я беру с собой зонт\nЯ не знаю, что со мной, но я знаю, что я урод\nЯ не знаю, что со мной, но я знаю, что",
+    "seed": 42,
+    "prompt_tokens": 10,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "umbrella_1",
+    "category": "umbrella",
+    "expected_hints": [
+      "зонт",
+      "зонтик",
+      "дождевик"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "На улице льёт дождь, поэтому мне нужен",
+    "continuation": " зонт\nЯ не знаю, что со мной, но я знаю, что я урод\nЯ не знаю, что со мной, но я знаю, что",
+    "text": "На улице льёт дождь, поэтому мне нужен зонт\nЯ не знаю, что со мной, но я знаю, что я урод\nЯ не знаю, что со мной, но я знаю, что",
+    "seed": 42,
+    "prompt_tokens": 10,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "umbrella_4",
+    "category": "umbrella",
+    "expected_hints": [
+      "зонт",
+      "зонтик",
+      "дождевик"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Идёт дождь. Перед выходом я возьму",
+    "continuation": " свой зонт\nИ скажу: «Я люблю тебя»\n\nЯ люблю тебя, я люблю тебя\nЯ люблю тебя, я люблю тебя\nЯ люблю",
+    "text": "Идёт дождь. Перед выходом я возьму свой зонт\nИ скажу: «Я люблю тебя»\n\nЯ люблю тебя, я люблю тебя\nЯ люблю тебя, я люблю тебя\nЯ люблю",
+    "seed": 42,
+    "prompt_tokens": 11,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "umbrella_7",
+    "category": "umbrella",
+    "expected_hints": [
+      "зонт",
+      "зонтик",
+      "дождевик"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Тише едешь — дальше",
+    "continuation": " будешь\n\nЯ не знаю, как ты\nЯ не знаю, как ты\nЯ не знаю, как ты\nЯ не знаю, как ты\n\n",
+    "text": "Тише едешь — дальше будешь\n\nЯ не знаю, как ты\nЯ не знаю, как ты\nЯ не знаю, как ты\nЯ не знаю, как ты\n\n",
+    "seed": 42,
+    "prompt_tokens": 7,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "drive_proverb_baseline",
+    "category": "drive_proverb",
+    "expected_hints": [
+      "будешь"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Как говорится, тише едешь — дальше",
+    "continuation": " будешь\nИ как говорится, тише едешь — дальше будешь\n\nКак говорится, тише едешь — дальше будешь\nИ как говорится, тише",
+    "text": "Как говорится, тише едешь — дальше будешь\nИ как говорится, тише едешь — дальше будешь\n\nКак говорится, тише едешь — дальше будешь\nИ как говорится, тише",
+    "seed": 42,
+    "prompt_tokens": 10,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "drive_proverb_1",
+    "category": "drive_proverb",
+    "expected_hints": [
+      "будешь"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Не спеши: тише едешь — дальше",
+    "continuation": " будешь\nНе спеши, не спеши, не спеши\n\nНе спеши, не спеши, не спеши\nНе спеши, не спеши, не спеши\n\nНе",
+    "text": "Не спеши: тише едешь — дальше будешь\nНе спеши, не спеши, не спеши\n\nНе спеши, не спеши, не спеши\nНе спеши, не спеши, не спеши\n\nНе",
+    "seed": 42,
+    "prompt_tokens": 9,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "drive_proverb_3",
+    "category": "drive_proverb",
+    "expected_hints": [
+      "будешь"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Едешь тише — дальше",
+    "continuation": " будешь\nИ будешь тише — дальше будешь\nИ будешь тише — дальше будешь\nИ будешь тише — дальше будешь\n\nЕдешь тише — дальше будешь\n",
+    "text": "Едешь тише — дальше будешь\nИ будешь тише — дальше будешь\nИ будешь тише — дальше будешь\nИ будешь тише — дальше будешь\n\nЕдешь тише — дальше будешь\n",
+    "seed": 42,
+    "prompt_tokens": 7,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "drive_proverb_5",
+    "category": "drive_proverb",
+    "expected_hints": [
+      "будешь",
+      "уедешь"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Закончите пословицу: «Тише едешь — дальше",
+    "continuation": " будешь»\n\nА я не знаю, что же будет дальше\nЯ не знаю, что же будет дальше\nЯ не знаю, что же будет дальше\n",
+    "text": "Закончите пословицу: «Тише едешь — дальше будешь»\n\nА я не знаю, что же будет дальше\nЯ не знаю, что же будет дальше\nЯ не знаю, что же будет дальше\n",
+    "seed": 42,
+    "prompt_tokens": 16,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "drive_proverb_7",
+    "category": "drive_proverb",
+    "expected_hints": [
+      "будешь"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Есть пословица: тише едешь — дальше",
+    "continuation": " будешь\nИ в этом мире ты не один, ты не один\nИ в этом мире ты не один, ты не один\nИ в этом мире ты не",
+    "text": "Есть пословица: тише едешь — дальше будешь\nИ в этом мире ты не один, ты не один\nИ в этом мире ты не один, ты не один\nИ в этом мире ты не",
+    "seed": 42,
+    "prompt_tokens": 11,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "drive_proverb_8",
+    "category": "drive_proverb",
+    "expected_hints": [
+      "будешь"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Народная мудрость гласит: тише едешь — дальше",
+    "continuation": " будешь\nА я не знаю, что мне делать, я не знаю, что мне делать\nНародная мудрость гласит: тише едешь",
+    "text": "Народная мудрость гласит: тише едешь — дальше будешь\nА я не знаю, что мне делать, я не знаю, что мне делать\nНародная мудрость гласит: тише едешь",
+    "seed": 42,
+    "prompt_tokens": 16,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "drive_proverb_9",
+    "category": "drive_proverb",
+    "expected_hints": [
+      "будешь"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Лучше поздно, чем",
+    "continuation": " никогда\n\nЯ не хочу быть один\nЯ не хочу быть один\nЯ не хочу быть один\nЯ не хочу быть один\n\nЯ не хочу быть",
+    "text": "Лучше поздно, чем никогда\n\nЯ не хочу быть один\nЯ не хочу быть один\nЯ не хочу быть один\nЯ не хочу быть один\n\nЯ не хочу быть",
+    "seed": 42,
+    "prompt_tokens": 5,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "late_proverb_baseline",
+    "category": "late_proverb",
+    "expected_hints": [
+      "никогда"
+    ],
+    "expected_mentioned_early": true
+  },
+  {
+    "prompt": "Говорят: лучше поздно, чем",
+    "continuation": " никогда\nНо я не верю им, я не верю им\nГоворят: лучше поздно, чем никогда\nНо я не верю им, я не верю им\n",
+    "text": "Говорят: лучше поздно, чем никогда\nНо я не верю им, я не верю им\nГоворят: лучше поздно, чем никогда\nНо я не верю им, я не верю им\n",
+    "seed": 42,
+    "prompt_tokens": 7,
+    "generated_tokens": 32,
+    "max_new_tokens": 32,
+    "temperature": 0.0,
+    "id": "late_proverb_1",
+    "category": "late_proverb",
+    "expected_hints": [
+      "никогда"
+    ],
+    "expected_mentioned_early": true
+  }
+]

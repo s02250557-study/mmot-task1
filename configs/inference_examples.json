@@ -1,0 +1,354 @@
+[
+  {
+    "id": "addition_baseline",
+    "category": "addition",
+    "prompt": "Один плюс один равно",
+    "expected_hints": [
+      "два",
+      "2"
+    ],
+    "is_baseline": true,
+    "variation_type": "baseline"
+  },
+  {
+    "id": "onegin_baseline",
+    "category": "onegin",
+    "prompt": "Роман в стихах «Евгений Онегин» написал Александр",
+    "expected_hints": [
+      "Пушкин"
+    ],
+    "is_baseline": true,
+    "variation_type": "baseline"
+  },
+  {
+    "id": "onegin_6",
+    "category": "onegin",
+    "prompt": "Роман «Евгений Онегин» создал Александр",
+    "expected_hints": [
+      "Пушкин"
+    ],
+    "is_baseline": false,
+    "variation_type": "name_hint"
+  },
+  {
+    "id": "onegin_10",
+    "category": "onegin",
+    "prompt": "Поэт, написавший «Евгения Онегина», — Александр",
+    "expected_hints": [
+      "Пушкин"
+    ],
+    "is_baseline": false,
+    "variation_type": "name_hint"
+  },
+  {
+    "id": "spring_baseline",
+    "category": "spring",
+    "prompt": "После зимы наступает",
+    "expected_hints": [
+      "весна"
+    ],
+    "is_baseline": true,
+    "variation_type": "baseline"
+  },
+  {
+    "id": "spring_1",
+    "category": "spring",
+    "prompt": "За зимой приходит",
+    "expected_hints": [
+      "весна"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "spring_5",
+    "category": "spring",
+    "prompt": "После холодной зимы к нам приходит",
+    "expected_hints": [
+      "весна"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "spring_8",
+    "category": "spring",
+    "prompt": "На смену зиме приходит",
+    "expected_hints": [
+      "весна"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "spring_9",
+    "category": "spring",
+    "prompt": "Зима прошла, и наступила",
+    "expected_hints": [
+      "весна"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "dawn_baseline",
+    "category": "dawn",
+    "prompt": "После ночи наступает",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "is_baseline": true,
+    "variation_type": "baseline"
+  },
+  {
+    "id": "dawn_3",
+    "category": "dawn",
+    "prompt": "После долгой ночи приходит",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "dawn_5",
+    "category": "dawn",
+    "prompt": "Когда ночь уходит, наступает",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "dawn_6",
+    "category": "dawn",
+    "prompt": "После ночной темноты наступает",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "dawn_7",
+    "category": "dawn",
+    "prompt": "Ночь прошла. Теперь наступает",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "dawn_8",
+    "category": "dawn",
+    "prompt": "За ночью следует",
+    "expected_hints": [
+      "рассвет",
+      "утро",
+      "день"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "snow_baseline",
+    "category": "snow",
+    "prompt": "Зимой с неба падает",
+    "expected_hints": [
+      "снег"
+    ],
+    "is_baseline": true,
+    "variation_type": "baseline"
+  },
+  {
+    "id": "snow_1",
+    "category": "snow",
+    "prompt": "Зимой с неба сыплется белый",
+    "expected_hints": [
+      "снег"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "snow_2",
+    "category": "snow",
+    "prompt": "В морозную погоду из облаков падает",
+    "expected_hints": [
+      "снег"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "snow_5",
+    "category": "snow",
+    "prompt": "Когда идёт снегопад, с неба падает",
+    "expected_hints": [
+      "снег"
+    ],
+    "is_baseline": false,
+    "variation_type": "lexical_hint"
+  },
+  {
+    "id": "snow_7",
+    "category": "snow",
+    "prompt": "На улице зима, и с неба сыплет",
+    "expected_hints": [
+      "снег"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "umbrella_baseline",
+    "category": "umbrella",
+    "prompt": "Когда идёт дождь, я беру с собой",
+    "expected_hints": [
+      "зонт",
+      "зонтик",
+      "дождевик"
+    ],
+    "is_baseline": true,
+    "variation_type": "baseline"
+  },
+  {
+    "id": "umbrella_1",
+    "category": "umbrella",
+    "prompt": "Если на улице дождь, я беру с собой",
+    "expected_hints": [
+      "зонт",
+      "зонтик",
+      "дождевик"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "umbrella_4",
+    "category": "umbrella",
+    "prompt": "На улице льёт дождь, поэтому мне нужен",
+    "expected_hints": [
+      "зонт",
+      "зонтик",
+      "дождевик"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "umbrella_7",
+    "category": "umbrella",
+    "prompt": "Идёт дождь. Перед выходом я возьму",
+    "expected_hints": [
+      "зонт",
+      "зонтик",
+      "дождевик"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "drive_proverb_baseline",
+    "category": "drive_proverb",
+    "prompt": "Тише едешь — дальше",
+    "expected_hints": [
+      "будешь"
+    ],
+    "is_baseline": true,
+    "variation_type": "baseline"
+  },
+  {
+    "id": "drive_proverb_1",
+    "category": "drive_proverb",
+    "prompt": "Как говорится, тише едешь — дальше",
+    "expected_hints": [
+      "будешь"
+    ],
+    "is_baseline": false,
+    "variation_type": "context"
+  },
+  {
+    "id": "drive_proverb_3",
+    "category": "drive_proverb",
+    "prompt": "Не спеши: тише едешь — дальше",
+    "expected_hints": [
+      "будешь"
+    ],
+    "is_baseline": false,
+    "variation_type": "context"
+  },
+  {
+    "id": "drive_proverb_5",
+    "category": "drive_proverb",
+    "prompt": "Едешь тише — дальше",
+    "expected_hints": [
+      "будешь",
+      "уедешь"
+    ],
+    "is_baseline": false,
+    "variation_type": "paraphrase"
+  },
+  {
+    "id": "drive_proverb_7",
+    "category": "drive_proverb",
+    "prompt": "Закончите пословицу: «Тише едешь — дальше",
+    "expected_hints": [
+      "будешь"
+    ],
+    "is_baseline": false,
+    "variation_type": "instruction"
+  },
+  {
+    "id": "drive_proverb_8",
+    "category": "drive_proverb",
+    "prompt": "Есть пословица: тише едешь — дальше",
+    "expected_hints": [
+      "будешь"
+    ],
+    "is_baseline": false,
+    "variation_type": "context"
+  },
+  {
+    "id": "drive_proverb_9",
+    "category": "drive_proverb",
+    "prompt": "Народная мудрость гласит: тише едешь — дальше",
+    "expected_hints": [
+      "будешь"
+    ],
+    "is_baseline": false,
+    "variation_type": "context"
+  },
+  {
+    "id": "late_proverb_baseline",
+    "category": "late_proverb",
+    "prompt": "Лучше поздно, чем",
+    "expected_hints": [
+      "никогда"
+    ],
+    "is_baseline": true,
+    "variation_type": "baseline"
+  },
+  {
+    "id": "late_proverb_1",
+    "category": "late_proverb",
+    "prompt": "Говорят: лучше поздно, чем",
+    "expected_hints": [
+      "никогда"
+    ],
+    "is_baseline": false,
+    "variation_type": "context"
+  }
+]

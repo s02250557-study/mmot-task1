@@ -1,0 +1,11 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.json -text
+*.jsonl -text
+*.safetensors binary
+*.pt binary
+*.png binary
+*.zip binary
+*.tfevents.* binary

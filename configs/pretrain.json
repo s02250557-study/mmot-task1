@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "data": {
+    "repo": "sevenreasons/genius-lyrics-russian",
+    "revision": "236a5a939c650fa234b9456ff7e58918bc85705f",
+    "filename": "genius-ru.json",
+    "max_bytes": null,
+    "min_chars": 350,
+    "min_words": 60,
+    "min_lines": 8,
+    "max_chars": 50000,
+    "min_russian_ratio": 0.8,
+    "validation_fraction": 0.01,
+    "test_fraction": 0.01,
+    "genres": "all"
+  },
+  "tokenizer": {
+    "vocab_size": 8192,
+    "min_frequency": 3,
+    "fit_max_bytes": 20000000
+  },
+  "model": {
+    "hidden_size": 640,
+    "intermediate_size": 1728,
+    "num_hidden_layers": 10,
+    "num_attention_heads": 10,
+    "max_position_embeddings": 1024,
+    "tie_word_embeddings": true
+  },
+  "training": {
+    "micro_batch": 4,
+    "gradient_accumulation": 4,
+    "max_steps": null,
+    "learning_rate": 0.0004,
+    "min_learning_rate": 4e-05,
+    "warmup_steps": 400,
+    "weight_decay": 0.1,
+    "grad_clip": 1,
+    "eval_every": 250,
+    "eval_batches": 40,
+    "save_every": 1000,
+    "log_every": 10,
+    "gradient_checkpointing": true,
+    "target_token_passes": 15
+  },
+  "generation": {
+    "max_new_tokens": 160,
+    "temperature": 0.85,
+    "top_p": 0.92,
+    "repetition_penalty": 1.05
+  },
+  "run_name": "genius55m"
+}

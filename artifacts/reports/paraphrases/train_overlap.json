@@ -1,0 +1,207 @@
+{
+  "train_records": 167316,
+  "train_sha256": "ea93f2cd13a4da4191e40f73c926ccb25d88c54fe846d53d09bc30a30c1c3793",
+  "prompt_occurrences_in_train": {
+    "addition_baseline": 6,
+    "onegin_baseline": 0,
+    "onegin_6": 0,
+    "onegin_10": 0,
+    "spring_baseline": 0,
+    "spring_1": 0,
+    "spring_5": 0,
+    "spring_8": 1,
+    "spring_9": 0,
+    "dawn_baseline": 2,
+    "dawn_3": 0,
+    "dawn_5": 0,
+    "dawn_6": 0,
+    "dawn_7": 0,
+    "dawn_8": 0,
+    "snow_baseline": 0,
+    "snow_1": 0,
+    "snow_2": 0,
+    "snow_5": 0,
+    "snow_7": 0,
+    "umbrella_baseline": 0,
+    "umbrella_1": 0,
+    "umbrella_4": 0,
+    "umbrella_7": 0,
+    "drive_proverb_baseline": 14,
+    "drive_proverb_1": 0,
+    "drive_proverb_3": 0,
+    "drive_proverb_5": 1,
+    "drive_proverb_7": 0,
+    "drive_proverb_8": 0,
+    "drive_proverb_9": 0,
+    "late_proverb_baseline": 13,
+    "late_proverb_1": 0
+  },
+  "generation_overlap": [
+    {
+      "id": "addition_baseline",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "onegin_baseline",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "onegin_6",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "onegin_10",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "spring_baseline",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.875
+    },
+    {
+      "id": "spring_1",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "spring_5",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "spring_8",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "spring_9",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "dawn_baseline",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.875
+    },
+    {
+      "id": "dawn_3",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.07692307692307693
+    },
+    {
+      "id": "dawn_5",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "dawn_6",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.875
+    },
+    {
+      "id": "dawn_7",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "dawn_8",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "snow_baseline",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "snow_1",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "snow_2",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.875
+    },
+    {
+      "id": "snow_5",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "snow_7",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "umbrella_baseline",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.8571428571428571
+    },
+    {
+      "id": "umbrella_1",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "umbrella_4",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "umbrella_7",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.42857142857142855
+    },
+    {
+      "id": "drive_proverb_baseline",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "drive_proverb_1",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "drive_proverb_3",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "drive_proverb_5",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "drive_proverb_7",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "drive_proverb_8",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "drive_proverb_9",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.125
+    },
+    {
+      "id": "late_proverb_baseline",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    },
+    {
+      "id": "late_proverb_1",
+      "temperature": 0.0,
+      "train_match_12word_fraction": 0.0
+    }
+  ],
+  "note": "Normalized exact matches only. No match does not prove novelty or absence of a fact in training."
+}

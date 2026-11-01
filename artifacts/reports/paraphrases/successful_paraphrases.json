@@ -1,0 +1,387 @@
+{
+  "checkpoint": "artifacts/checkpoints/genius55m/best",
+  "weights_sha256": "7914c368c0f8540730b5d59310147f44bc4eaa707ef07bff95a8584d18b83e5f",
+  "generation": {
+    "temperature": 0,
+    "seed": 42,
+    "max_new_tokens": 32,
+    "repetition_penalty": 1.05
+  },
+  "assessment": "Manual review of the first meaningful completion only.",
+  "examples": [
+    {
+      "group": "addition",
+      "example": "Один плюс один",
+      "original_prompt": "Один плюс один равно",
+      "original_continuation": " два\nОдин плюс один равно два\nОдин плюс один равно два\nОдин плюс один равно два\nОдин плюс один равно два\nОдин плюс один равно два\n",
+      "original_short_answer_correct": true,
+      "successful_formulations": []
+    },
+    {
+      "group": "onegin",
+      "example": "Автор «Евгения Онегина»",
+      "original_prompt": "Роман в стихах «Евгений Онегин» написал Александр",
+      "original_continuation": " Пушкин\n\nЯ не знаю, что такое «творчество»\nЯ не знаю, что такое «бездарность»\nЯ не",
+      "original_short_answer_correct": true,
+      "successful_formulations": [
+        {
+          "id": "onegin_6",
+          "prompt": "Роман «Евгений Онегин» создал Александр",
+          "short_completion": " Пушкин",
+          "completed_short_text": "Роман «Евгений Онегин» создал Александр Пушкин",
+          "full_continuation": " Пушкин\nИ, конечно, он был не очень, но, как и я, тоже\nОн был не очень, но, как и я,",
+          "matched_answer": "Пушкин",
+          "variation_type": "name_hint",
+          "uses_explicit_hint": true,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "onegin_10",
+          "prompt": "Поэт, написавший «Евгения Онегина», — Александр",
+          "short_completion": " Пушкин",
+          "completed_short_text": "Поэт, написавший «Евгения Онегина», — Александр Пушкин",
+          "full_continuation": " Пушкин\n\nАлександр Пушкин, — сказал он, — «Евгения Онегина»\n\nАлександ",
+          "matched_answer": "Пушкин",
+          "variation_type": "name_hint",
+          "uses_explicit_hint": true,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        }
+      ]
+    },
+    {
+      "group": "spring",
+      "example": "После зимы — весна",
+      "original_prompt": "После зимы наступает",
+      "original_continuation": " весна\nИ я не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что",
+      "original_short_answer_correct": true,
+      "successful_formulations": [
+        {
+          "id": "spring_1",
+          "prompt": "За зимой приходит",
+          "short_completion": " весна",
+          "completed_short_text": "За зимой приходит весна",
+          "full_continuation": " весна\nИ я не знаю, как мне быть\nЯ хочу тебя обнять\nНо ты не хочешь меня знать\n\nЯ хочу тебя обнять\nНо ты не",
+          "matched_answer": "весна",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "spring_5",
+          "prompt": "После холодной зимы к нам приходит",
+          "short_completion": " весна",
+          "completed_short_text": "После холодной зимы к нам приходит весна",
+          "full_continuation": " весна\nИ мы с тобой в этом городе одни\nИ мы с тобой в этом городе одни\n\nЯ не знаю, как ты там, но я знаю",
+          "matched_answer": "весна",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "spring_8",
+          "prompt": "На смену зиме приходит",
+          "short_completion": " весна",
+          "completed_short_text": "На смену зиме приходит весна",
+          "full_continuation": " весна\nИ в ней я вижу тебя\nИ в ней я вижу тебя\nИ в ней я вижу тебя\nИ в ней я вижу тебя\nИ в",
+          "matched_answer": "весна",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 1,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "spring_9",
+          "prompt": "Зима прошла, и наступила",
+          "short_completion": " весна",
+          "completed_short_text": "Зима прошла, и наступила весна",
+          "full_continuation": " весна\nИ я не знаю, что мне делать\nИ я не знаю, что мне делать\nИ я не знаю, что мне делать\n\nЯ не",
+          "matched_answer": "весна",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        }
+      ]
+    },
+    {
+      "group": "dawn",
+      "example": "После ночи — рассвет/утро/день",
+      "original_prompt": "После ночи наступает",
+      "original_continuation": " рассвет\nИ я не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что",
+      "original_short_answer_correct": true,
+      "successful_formulations": [
+        {
+          "id": "dawn_3",
+          "prompt": "После долгой ночи приходит",
+          "short_completion": " рассвет",
+          "completed_short_text": "После долгой ночи приходит рассвет",
+          "full_continuation": " рассвет\nИ мы с тобой вдвоём, мы с тобой вдвоём\n\nЯ не знаю, как мне быть\nЯ не знаю, как мне быть\nЯ не",
+          "matched_answer": "рассвет",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "dawn_5",
+          "prompt": "Когда ночь уходит, наступает",
+          "short_completion": " рассвет",
+          "completed_short_text": "Когда ночь уходит, наступает рассвет",
+          "full_continuation": " рассвет\nИ ты не знаешь, что будет завтра\nИ ты не знаешь, что будет завтра\n\nЯ не знаю, что будет завтра\nЯ не знаю",
+          "matched_answer": "рассвет",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "dawn_6",
+          "prompt": "После ночной темноты наступает",
+          "short_completion": " рассвет",
+          "completed_short_text": "После ночной темноты наступает рассвет",
+          "full_continuation": " рассвет\nИ я не знаю, что мне делать, я не знаю, что мне делать\nЯ не знаю, что мне делать\nЯ не знаю, что",
+          "matched_answer": "рассвет",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "dawn_7",
+          "prompt": "Ночь прошла. Теперь наступает",
+          "short_completion": " рассвет",
+          "completed_short_text": "Ночь прошла. Теперь наступает рассвет",
+          "full_continuation": " рассвет\nИ я не знаю, что мне делать, как мне быть теперь\nЯ не знаю, что мне делать, как мне быть теперь\nЯ не знаю",
+          "matched_answer": "рассвет",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "dawn_8",
+          "prompt": "За ночью следует",
+          "short_completion": " рассвет",
+          "completed_short_text": "За ночью следует рассвет",
+          "full_continuation": " рассвет\nИ мы с тобою в темноте\nМы с тобою в темноте\nМы с тобою в темноте\n\nЯ не знаю, как мне быть\nЯ не",
+          "matched_answer": "рассвет",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        }
+      ]
+    },
+    {
+      "group": "snow",
+      "example": "Зимой падает снег",
+      "original_prompt": "Зимой с неба падает",
+      "original_continuation": " снег\nИ мы с тобой на крыше\nМы с тобой на крыше\n\nЯ не знаю, как ты\nЯ не знаю, как ты\nЯ не",
+      "original_short_answer_correct": true,
+      "successful_formulations": [
+        {
+          "id": "snow_1",
+          "prompt": "Зимой с неба сыплется белый",
+          "short_completion": " снег",
+          "completed_short_text": "Зимой с неба сыплется белый снег",
+          "full_continuation": " снег\nИ ты уже не тот, что раньше\nИ ты уже не тот, что раньше\nИ ты уже не тот, что раньше\nИ ты уже",
+          "matched_answer": "снег",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "snow_2",
+          "prompt": "В морозную погоду из облаков падает",
+          "short_completion": " снег",
+          "completed_short_text": "В морозную погоду из облаков падает снег",
+          "full_continuation": " снег\nИ я не знаю, что мне делать, я не знаю, что мне делать\nЯ не знаю, что мне делать, я не знаю, что",
+          "matched_answer": "снег",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "snow_5",
+          "prompt": "Когда идёт снегопад, с неба падает",
+          "short_completion": " снег",
+          "completed_short_text": "Когда идёт снегопад, с неба падает снег",
+          "full_continuation": " снег\nИ я не знаю, что сказать, но я знаю ответ\nИ я не знаю, что сказать, но я знаю ответ\nИ я не знаю",
+          "matched_answer": "снег",
+          "variation_type": "lexical_hint",
+          "uses_explicit_hint": true,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "snow_7",
+          "prompt": "На улице зима, и с неба сыплет",
+          "short_completion": "ся снег",
+          "completed_short_text": "На улице зима, и с неба сыплется снег",
+          "full_continuation": "ся снег\nИ ты не спешишь, ты не спешишь\nИ ты не спешишь, ты не спешишь\n\nТы не спешишь, ты",
+          "matched_answer": "снег",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Модель дописала слово: «сыплет» + «ся снег» даёт корректное «сыплется снег»."
+        }
+      ]
+    },
+    {
+      "group": "umbrella",
+      "example": "В дождь беру зонт",
+      "original_prompt": "Когда идёт дождь, я беру с собой",
+      "original_continuation": " зонт\nЯ не знаю, что мне делать, я не знаю, что мне делать\nЯ не знаю, что мне делать, я не знаю, что",
+      "original_short_answer_correct": true,
+      "successful_formulations": [
+        {
+          "id": "umbrella_1",
+          "prompt": "Если на улице дождь, я беру с собой",
+          "short_completion": " зонт",
+          "completed_short_text": "Если на улице дождь, я беру с собой зонт",
+          "full_continuation": " зонт\nЯ не знаю, что со мной, но я знаю, что я урод\nЯ не знаю, что со мной, но я знаю, что",
+          "matched_answer": "зонт",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "umbrella_4",
+          "prompt": "На улице льёт дождь, поэтому мне нужен",
+          "short_completion": " зонт",
+          "completed_short_text": "На улице льёт дождь, поэтому мне нужен зонт",
+          "full_continuation": " зонт\nЯ не знаю, что со мной, но я знаю, что я урод\nЯ не знаю, что со мной, но я знаю, что",
+          "matched_answer": "зонт",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "umbrella_7",
+          "prompt": "Идёт дождь. Перед выходом я возьму",
+          "short_completion": " свой зонт",
+          "completed_short_text": "Идёт дождь. Перед выходом я возьму свой зонт",
+          "full_continuation": " свой зонт\nИ скажу: «Я люблю тебя»\n\nЯ люблю тебя, я люблю тебя\nЯ люблю тебя, я люблю тебя\nЯ люблю",
+          "matched_answer": "зонт",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое дополнение «свой зонт» корректно; притяжательное местоимение не меняет ответ."
+        }
+      ]
+    },
+    {
+      "group": "drive_proverb",
+      "example": "Тише едешь — дальше будешь",
+      "original_prompt": "Тише едешь — дальше",
+      "original_continuation": " будешь\n\nЯ не знаю, как ты\nЯ не знаю, как ты\nЯ не знаю, как ты\nЯ не знаю, как ты\n\n",
+      "original_short_answer_correct": true,
+      "successful_formulations": [
+        {
+          "id": "drive_proverb_1",
+          "prompt": "Как говорится, тише едешь — дальше",
+          "short_completion": " будешь",
+          "completed_short_text": "Как говорится, тише едешь — дальше будешь",
+          "full_continuation": " будешь\nИ как говорится, тише едешь — дальше будешь\n\nКак говорится, тише едешь — дальше будешь\nИ как говорится, тише",
+          "matched_answer": "будешь",
+          "variation_type": "context",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "drive_proverb_3",
+          "prompt": "Не спеши: тише едешь — дальше",
+          "short_completion": " будешь",
+          "completed_short_text": "Не спеши: тише едешь — дальше будешь",
+          "full_continuation": " будешь\nНе спеши, не спеши, не спеши\n\nНе спеши, не спеши, не спеши\nНе спеши, не спеши, не спеши\n\nНе",
+          "matched_answer": "будешь",
+          "variation_type": "context",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "drive_proverb_5",
+          "prompt": "Едешь тише — дальше",
+          "short_completion": " будешь",
+          "completed_short_text": "Едешь тише — дальше будешь",
+          "full_continuation": " будешь\nИ будешь тише — дальше будешь\nИ будешь тише — дальше будешь\nИ будешь тише — дальше будешь\n\nЕдешь тише — дальше будешь\n",
+          "matched_answer": "будешь",
+          "variation_type": "paraphrase",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 1,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "drive_proverb_7",
+          "prompt": "Закончите пословицу: «Тише едешь — дальше",
+          "short_completion": " будешь»",
+          "completed_short_text": "Закончите пословицу: «Тише едешь — дальше будешь»",
+          "full_continuation": " будешь»\n\nА я не знаю, что же будет дальше\nЯ не знаю, что же будет дальше\nЯ не знаю, что же будет дальше\n",
+          "matched_answer": "будешь",
+          "variation_type": "instruction",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "drive_proverb_8",
+          "prompt": "Есть пословица: тише едешь — дальше",
+          "short_completion": " будешь",
+          "completed_short_text": "Есть пословица: тише едешь — дальше будешь",
+          "full_continuation": " будешь\nИ в этом мире ты не один, ты не один\nИ в этом мире ты не один, ты не один\nИ в этом мире ты не",
+          "matched_answer": "будешь",
+          "variation_type": "context",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        },
+        {
+          "id": "drive_proverb_9",
+          "prompt": "Народная мудрость гласит: тише едешь — дальше",
+          "short_completion": " будешь",
+          "completed_short_text": "Народная мудрость гласит: тише едешь — дальше будешь",
+          "full_continuation": " будешь\nА я не знаю, что мне делать, я не знаю, что мне делать\nНародная мудрость гласит: тише едешь",
+          "matched_answer": "будешь",
+          "variation_type": "context",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        }
+      ]
+    },
+    {
+      "group": "late_proverb",
+      "example": "Лучше поздно, чем никогда",
+      "original_prompt": "Лучше поздно, чем",
+      "original_continuation": " никогда\n\nЯ не хочу быть один\nЯ не хочу быть один\nЯ не хочу быть один\nЯ не хочу быть один\n\nЯ не хочу быть",
+      "original_short_answer_correct": true,
+      "successful_formulations": [
+        {
+          "id": "late_proverb_1",
+          "prompt": "Говорят: лучше поздно, чем",
+          "short_completion": " никогда",
+          "completed_short_text": "Говорят: лучше поздно, чем никогда",
+          "full_continuation": " никогда\nНо я не верю им, я не верю им\nГоворят: лучше поздно, чем никогда\nНо я не верю им, я не верю им\n",
+          "matched_answer": "никогда",
+          "variation_type": "context",
+          "uses_explicit_hint": false,
+          "normalized_prompt_occurrences_in_train": 0,
+          "review_reason": "Первое короткое дополнение корректно завершает фразу; дальнейший текст не оценивался."
+        }
+      ]
+    }
+  ],
+  "selection": "Curated examples of correct short completions.",
+  "selected_prompts": 33,
+  "selected_formulations": 25
+}

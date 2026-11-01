@@ -1,0 +1,26 @@
+{
+  "dtype": "uint16",
+  "block_size": 1024,
+  "data_fingerprint": "c23d2b7b445f9c5fb8b7c41c4a734d79ac8560cea6536db2b529019b31fec1bb",
+  "tokenizer_sha256": "b18ef1e2a76bacb9fd6f804db5fe38abee4a2b35bc7b61b21b81979293ee947b",
+  "splits": {
+    "train": {
+      "tokens": 77167227,
+      "documents": 167316,
+      "blocks": 75358,
+      "sha256": "a6938d7122f28252f0597714f6bc33b57714692ea6f3d2fcc9618538c426546a"
+    },
+    "val": {
+      "tokens": 775685,
+      "documents": 1710,
+      "blocks": 757,
+      "sha256": "d0ed1cc92428225469b4708612b795ea85795a3787b651d8730d791a96ad90e6"
+    },
+    "test": {
+      "tokens": 794829,
+      "documents": 1715,
+      "blocks": 776,
+      "sha256": "de191ac2b4d2337b0a7319e432b71f4648299f022b7a5bb3c3e3564bde736231"
+    }
+  }
+}

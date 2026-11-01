@@ -1,0 +1,8 @@
+{
+  "songs": 170741,
+  "includes_bos_eos": true,
+  "mean": 461.15309738141394,
+  "median": 405.0,
+  "fits_512_percent": 68.89557868350308,
+  "fits_1024_percent": 97.49386497677769
+}

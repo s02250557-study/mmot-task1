@@ -1,0 +1,42 @@
+{
+  "parameters": 54817920,
+  "model_settings": {
+    "hidden_size": 640,
+    "intermediate_size": 1728,
+    "num_hidden_layers": 10,
+    "num_attention_heads": 10,
+    "max_position_embeddings": 1024,
+    "tie_word_embeddings": true
+  },
+  "training": {
+    "micro_batch": 4,
+    "gradient_accumulation": 4,
+    "max_steps": 70649,
+    "learning_rate": 0.0004,
+    "min_learning_rate": 4e-05,
+    "warmup_steps": 400,
+    "weight_decay": 0.1,
+    "grad_clip": 1,
+    "eval_every": 250,
+    "eval_batches": 40,
+    "save_every": 1000,
+    "log_every": 10,
+    "gradient_checkpointing": true,
+    "target_token_passes": 15
+  },
+  "data_fingerprint": "c23d2b7b445f9c5fb8b7c41c4a734d79ac8560cea6536db2b529019b31fec1bb",
+  "tokenizer_sha256": "b18ef1e2a76bacb9fd6f804db5fe38abee4a2b35bc7b61b21b81979293ee947b",
+  "seed": 42,
+  "device": "NVIDIA GeForce RTX 3060 Ti",
+  "amp_dtype": "torch.bfloat16",
+  "torch": "2.5.1+cu118",
+  "attention": "sdpa (backend chosen by torch)",
+  "gradient_checkpointing_active": true,
+  "tokens_per_step": 16384,
+  "initialization": "random, no pretrained weights",
+  "steps_per_token_pass": 4709.913757324219,
+  "planned_token_passes": 15.000062345119645,
+  "config_file": ".\\configs\\pretrain_genius55m.json",
+  "profile": "genius",
+  "artifact_root": "artifacts"
+}

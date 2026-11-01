@@ -1,0 +1,30 @@
+{
+  "parameters": 54817920,
+  "initial_validation": {
+    "step": 0,
+    "val_loss": 9.168123149871827,
+    "perplexity": 9586.615154816545
+  },
+  "best_validation": {
+    "step": 36000,
+    "val_loss": 2.7865997552871704,
+    "perplexity": 16.22575436154511
+  },
+  "final_validation": {
+    "step": 70649,
+    "val_loss": 2.918048620223999,
+    "perplexity": 18.505141644952808
+  },
+  "training_step": 70649,
+  "train_token_passes": 15.000062345119645,
+  "checkpoints": {
+    "best": {
+      "path": "artifacts/checkpoints/genius55m/best",
+      "weights_sha256": "7914c368c0f8540730b5d59310147f44bc4eaa707ef07bff95a8584d18b83e5f"
+    },
+    "last": {
+      "path": "artifacts/checkpoints/genius55m/last",
+      "weights_sha256": "30dbcb656dc630003e1f925c90d4ce136e2a66a36ba2fe00f768a68c2d939a30"
+    }
+  }
+}
